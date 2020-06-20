@@ -24,7 +24,7 @@ local Gamer3 = library:CreateSection("library's");
 
 Gamer3:Button("finity UI",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity%20UI%20Library.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity-UI-Library.lua"))();
 
 end)
 
