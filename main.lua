@@ -28,6 +28,5 @@ Gamer3:Button("Aztup Hub UI Library",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Aztup-UI.lua"))();
 
 end)
-end)
 
 library:Ready();
