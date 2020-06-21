@@ -1,59 +1,23 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/SKZjdjdj"))();
 
 
-local Gamer = library:CreateSection("FriendsHub");
-Gamer:Toggle("B");
-Gamer:Box("C");
-Gamer:ColorPicker("D");
-Gamer:Dropdown("Bakon", {"A", "B", "C"});
-Gamer:Button("Friends Hub V1",function()
-
-local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
-
-local w = library:CreateWindow("Friends Hub") -- GUI NAME
-
-local b = w:CreateFolder("hub") -- RANDOM NAME FOLDER
-
-b:Label("hub",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
-
-b:Button("aztup hub NOPE!",function()
+local Gamer = library:CreateSection("...");
+Gamer:Toggle("...");
+Gamer:Box("...");
+Gamer:ColorPicker("...");
+Gamer:Dropdown("...", {"...", "...", "..."});
+Gamer:Button("...",function()
 
 
 
 end)
-b:Button("Owl Hub",function()
 
--- Universal FPS Hub
-
--- discontinued
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-
-end)
-b:Button("BooHub",function()
-
--- boo!Hub | Version 4.2
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PurpleHubs/GhostyHub/master/hubv1.txt"))();
-
-end)
-b:Button("Ez Hub",function()
-
-loadstring(game:HttpGet(('https://pastebin.com/raw/SsG8y3HA'),true))()
-
-end)
-b:Button("Ahmed_Mode_X_Hub",function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/AhmedModeYT/AhmedModeX/master/AhmedModeX'))()
-
-end)local library = loadstring(game:HttpGet("https://pastebin.com/raw/SKZjdjdj"))();
-
-
-local Gamer = library:CreateSection("FriendsHub");
-Gamer:Toggle("B");
-Gamer:Box("C");
-Gamer:ColorPicker("D");
-Gamer:Dropdown("Bakon", {"A", "B", "C"});
-Gamer:Button("Friends Hub V1",function()
+local Gamer2 = library:CreateSection("FriendsHub");
+Gamer:Toggle("...");
+Gamer:Box("...");
+Gamer:ColorPicker("...");
+Gamer:Dropdown("...", {"...", "...", "..."});
+Gamer2:Button("Friends Hub V1",function()
 
 local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
 
