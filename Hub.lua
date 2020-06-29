@@ -358,17 +358,12 @@ end)
 
 b:Label("SS",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 
-b:Button("Delete Shops",function()
+b:Button("",function()
 
--- Deletes all doors from shops (ss)
--- For lt2 https://www.roblox.com/games/13822889/Lumber-Tycoon-2
+--
+--
 
-for i,v in pairs(workspace.Stores:GetDescendants()) do
-    if v:IsA("Model") and (v.Name == "LDoor" or v.Name == "RDoor") then
-        game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(v)
-        game.ReplicatedStorage.Interaction.DestroyStructure:FireServer(v)
-    end
-end
+
 
 end)
 
