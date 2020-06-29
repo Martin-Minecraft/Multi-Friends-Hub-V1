@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://github.com/Martin-Minecraft/Multi-Friends-Hub-V1/blob/master/LoadingHub.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Multi_LoadingHub.lua"))();
