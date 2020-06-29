@@ -9,7 +9,7 @@ end)
 
 Gamer:Button("Multi-Friends-Hub (Loading)",function()
 
-string(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Start.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Start.lua"))();
 
 end)
 
