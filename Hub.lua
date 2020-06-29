@@ -16,9 +16,9 @@ local b = w:CreateFolder("hub") -- RANDOM NAME FOLDER
 
 b:Label("hub",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
 
-b:Button("aztup hub NOPE!",function()
+b:Button("Auto-Clicker-Key-Is-P",function()
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Auto-Clicker-Key-Is-P.lua"))();
 
 end)
 b:Button("Owl Hub",function()
