@@ -21,6 +21,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+local Gamer = library:CreateSection("SS-Scripts");
+
+Gamer:Button("SS-Koi",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/SS-Koi.lua"))();
+
+end)
+
 local Gamer = library:CreateSection("Big Paintball");
 
 Gamer:Button("",function()
