@@ -13,5 +13,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+local Gamer = library:CreateSection("Big Paintball");
+
+Gamer:Button("all Guns",function()
+
+loadstring(game.HttpGet(game, "https://pastebin.com/raw/EjikdmZx")) ()
+
+end)
+
+Gamer:Button("Big Paintball Script",function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/kiMqmvs3'),true))()
+
+end)
+
 
 library:Ready();
