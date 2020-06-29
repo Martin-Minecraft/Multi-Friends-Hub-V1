@@ -25,13 +25,9 @@ local Gamer = library:CreateSection("Big Paintball");
 
 Gamer:Button("",function()
 
-
-
 end)
 
 Gamer:Button("",function()
-
-
 
 end)
 
