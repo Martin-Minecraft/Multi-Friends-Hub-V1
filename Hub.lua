@@ -193,9 +193,17 @@ b:Button("Dark Hub",function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
 
 end)
-b:Button("unbekannt",function()
+b:Button("S1mula0r-Hub",function()
+        
+--             All Ui Library Credit
+-- 1: Aztup @ v3rmillion
+-- 2: purplekashjd @ v3rmillion (his friend make)
+-- 3: 0xSingularity @ v3rmillion
+        
+--                     Game List
+-- https://github.com/naruto9161/S1mulat0r-Hub/blob/master/GameList/GameList.json
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/naruto9161/S1mulat0r-Hub/master/S1mula0r-Hub-NonBeta-Version.lua", true))()
 
 end)
 b:Button("unbekannt",function()
