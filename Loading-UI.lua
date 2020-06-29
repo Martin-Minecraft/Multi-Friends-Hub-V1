@@ -13,17 +13,25 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
-local Gamer = library:CreateSection("Big Paintball");
+local Gamer = library:CreateSection("Auto-Clicker-Key-Is-P");
 
-Gamer:Button("all Guns",function()
+Gamer:Button("Auto-Clicker",function()
 
-loadstring(game.HttpGet("https://pastebin.com/raw/EjikdmZx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Auto-Clicker-Key-Is-P.lua"))();
 
 end)
 
-Gamer:Button("Big Paintball Script",function()
+local Gamer = library:CreateSection("Big Paintball");
 
-loadstring(game:HttpGet(('https://pastebin.com/raw/kiMqmvs3'),true))()
+Gamer:Button("",function()
+
+
+
+end)
+
+Gamer:Button("",function()
+
+
 
 end)
 
