@@ -17,7 +17,7 @@ local Gamer = library:CreateSection("Big Paintball");
 
 Gamer:Button("all Guns",function()
 
-loadstring(game.HttpGet(game, "https://pastebin.com/raw/EjikdmZx")) ()
+loadstring(game.HttpGet("https://pastebin.com/raw/EjikdmZx"))()
 
 end)
 
