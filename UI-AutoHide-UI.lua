@@ -245,8 +245,8 @@ loadstring(game:HttpGet(""))();
 
 end)
 
-ExampleTab:Button("", function()
+ExampleTab:Button("UI-AutoHide-UI", function()
 
-loadstring(game:HttpGet(""))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/UI-AutoHide-UI.lua"))();
 
 end)
