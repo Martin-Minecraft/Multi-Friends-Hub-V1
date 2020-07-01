@@ -71,6 +71,7 @@ print("i liek cresh")
 end
 end)
 
+local ExampleTab = Lib:Tab("UI")
 UI:Button("Aztup-UI", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Aztup-UI.lua"))();
