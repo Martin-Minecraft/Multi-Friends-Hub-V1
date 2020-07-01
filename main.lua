@@ -47,4 +47,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+local Gamer3 = library:CreateSection("library's");
+
+Gamer3:Button("finity-UI-Copy",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity-UI-Copy.lua"))();
+
+end)
+
 library:Ready();
