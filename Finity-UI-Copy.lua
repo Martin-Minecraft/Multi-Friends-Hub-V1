@@ -10,7 +10,7 @@ local desc = [[
 local plr = game.Players.LocalPlayer
 local Finity = loadstring(game:HttpGet("http://finity.vip/scripts/finity_lib.lua"))()
 local FinityWindow = Finity.new(true)
-FinityWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
+FinityWindow.ChangeToggleKey(Enum.KeyCode.F1)
 local CreditsCategory = FinityWindow:Category("Credits/Info")
 local CreditsCreator = CreditsCategory:Sector("Finity Library Creator:")
 local ScriptCredit = CreditsCategory:Sector("Cheat Credit:")
@@ -21,7 +21,7 @@ ScriptCredit:Cheat("Label", "brianops16 @ v3rmillion.net")
 Description:Cheat("Label", desc)
 local Cheats = FinityWindow:Category("Cheats")
 local S1 = Cheats:Sector("Main Cheats")
-local EnumKeys = {'Semicolon','Tab','Equals','Comma','Minus','Period','F1',"F2","F3","F4",'F5',"F6","F7",
+local EnumKeys = {'F1','Tab','Equals','Comma','Minus','Period','Semicolon',"F2","F3","F4",'F5',"F6","F7",
 "F8","F9","F10","F11","F12",'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H',
 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M','Slash','One','Two','Three',"Four","Five","Six","Seven","Eight",
 "Nine","Zero",'BackSlash','RightBracket','LeftBracket'}
@@ -34,7 +34,6 @@ options = EnumKeys
 
 
 
---[[
 S1:Cheat("Slider", "Render Distance", function(Value)--Slider
 print("Silder value changed:", Value)
 end, {min = 0, max = 1500, suffix = " studs"})
@@ -64,6 +63,17 @@ S1:Cheat("Button", "Reset Whitelist", function() --Button
 print("Button pressed")
 end)
 
+S1:Cheat("Button", "Multi-Loading-Hub", function() --Button
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/LoadingHub.lua"))();
+
+end)
+
+S1:Cheat("Button", "instant", function() --Button
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Hub.lua"))();
+
+end)
 
 S1:Cheat("Checkbox","Name",
 function(State)
@@ -77,5 +87,4 @@ game:GetService('RunService').Stepped:wait()
 end
 end
 end)
-]]
 
