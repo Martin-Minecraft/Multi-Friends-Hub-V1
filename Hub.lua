@@ -185,7 +185,9 @@ loadstring(game:HttpGet("https://impulse-hub.000webhostapp.com/ImpulseHub.lua"))
 end)
 b:Button("Vex Hub",function()
 
-
+local Exploit = (secure_load and "Sentinel" or pebc_execute and "ProtoSmasher" or is_sirhurt_closure
+and" Sirhurt" or "SynapseX")
+loadstring(game:HttpGet("http://epicgamerhost.xyz/VexHub/" .. Exploit .. "Exploit.lua", true))()
 
 end)
 b:Button("Dark Hub",function()
@@ -206,7 +208,27 @@ b:Button("S1mula0r-Hub",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/naruto9161/S1mulat0r-Hub/master/S1mula0r-Hub-NonBeta-Version.lua", true))()
 
 end)
-b:Button("unbekannt",function()
+b:Button("cloud-hub",function()
+
+loadstring(game:HttpGet("https://cloudhub.dev/scripts/cloud-hub.lua"))()
+
+end)
+b:Button("baconhub",function()
+
+loadstring(game:HttpGet('http://skiascripts.xyz/baconhub.lua'))();
+
+end)
+b:Button("",function()
+
+
+
+end)
+b:Button("",function()
+
+
+
+end)
+b:Button("",function()
 
 
 
