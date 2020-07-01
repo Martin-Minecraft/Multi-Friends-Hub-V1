@@ -45,6 +45,32 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+ExampleTab:Label("ExampleLabel", "Exaple Label")
+ExampleTab:TextBox("Example Text Box", function(text)
+print(text)
+end)
+ExampleTab:Toggle("Example Toggle", function(state)
+if state then
+PrintToggle = true
+while PrintToggle do
+print("Hello Toggle!")
+wait()
+end
+else
+PrintToggle = false
+end
+end)
+ExampleTab:DropDown("Example DropDown", {"Sentinel", "Shitnapse X", "ProtoCrasher"}, function(text)
+if text == "Sentinel" then
+print("Best Lego Hak")
+warn("but small memory")
+elseif text == "Shitnapse X" then
+print("plz update faster", "discord server is full of nub")
+elseif text == "ProtoCrasher" then
+print("i liek cresh")
+end
+end)
+
 UI:Button("Aztup-UI", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Aztup-UI.lua"))();
