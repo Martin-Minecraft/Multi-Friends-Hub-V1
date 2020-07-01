@@ -37,3 +37,85 @@ elseif text == "ProtoCrasher" then
 print("i liek cresh")
 end
 end)
+
+local ExampleTab = Lib:Tab("UI")
+UI:Button("Auto-Clicker-Key-Is-P", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Auto-Clicker-Key-Is-P.lua"))();
+
+end)
+
+UI:Button("Aztup-UI", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Aztup-UI.lua"))();
+
+end)
+
+UI:Button("Random-UI", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Random-UI.lua"))();
+
+end)
+
+UI:Button("Finity-UI-Library", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity-UI-Library.lua"))();
+
+end)
+
+UI:Button("Finity-UI-Copy", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity-UI-Copy.lua"))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+UI:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+
+
