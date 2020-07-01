@@ -75,6 +75,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+S1:Cheat("Button", "UI-AutoHide-UI", function() --Button
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/UI-AutoHide-UI.lua"))();
+
+end)
+
 S1:Cheat("Checkbox","Name",
 function(State)
 if not State then
