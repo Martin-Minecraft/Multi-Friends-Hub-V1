@@ -39,6 +39,26 @@ print("i liek cresh")
 end
 end)
 
+local ExampleTab = Lib:Tab("GUI")
+
+ExampleTab:Button("ragdoll", function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
+
+end)
+
+ExampleTab:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end)
+
+ExampleTab:Button("", function()
+
+loadstring(game:HttpGet(""))();
+
+end))
+
 local ExampleTab = Lib:Tab("UI")
 
 ExampleTab:Button("Auto-Clicker-Key-Is-P", function()
