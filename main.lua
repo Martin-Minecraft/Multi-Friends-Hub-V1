@@ -17,6 +17,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+Gamer3:Button("Finity-UI-Copy",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Finity-UI-Copy.lua"))();
+
+end)
+
 Gamer3:Button("OwlHub UI Library",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/UILib.lua"))();
@@ -26,6 +32,18 @@ end)
 Gamer3:Button("Aztup Hub UI Library",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Aztup-UI.lua"))();
+
+end)
+
+Gamer3:Button("Random-UI",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/Random-UI.lua"))();
+
+end)
+
+Gamer3:Button("UI-AutoHide-UI",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/UI-AutoHide-UI.lua"))();
 
 end)
 
