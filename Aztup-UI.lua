@@ -12,7 +12,7 @@ end)
 
 local Gamer2 = library:CreateSection("AutoFarms");
 
-Gamer2:Button("Top Boring AutoFarm's");
+Gamer2:Button("Top Boring AutoFarm's",function()
 
 end)
 
