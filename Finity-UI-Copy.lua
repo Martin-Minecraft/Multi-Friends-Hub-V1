@@ -33,6 +33,7 @@ options = EnumKeys
 })
 
 
+
 --[[
 S1:Cheat("Slider", "Render Distance", function(Value)--Slider
 print("Silder value changed:", Value)
@@ -75,6 +76,6 @@ game:GetService('RunService').Stepped:wait()
 
 end
 end
-end
-)
+end)
 ]]
+
