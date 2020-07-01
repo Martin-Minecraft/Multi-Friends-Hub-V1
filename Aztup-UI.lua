@@ -14,6 +14,8 @@ local Gamer2 = library:CreateSection("AutoFarms");
 
 Gamer2:Button("Top Boring AutoFarm's");
 
+end)
+
 Gamer2:Button("Work at a Pizza Place Auto worker AFK farm The Pizza Factory",function()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR",true))()
