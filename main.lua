@@ -9,6 +9,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+local Gamer2 = library:CreateSection("Azure-Lib");
+
+Gamer2:Button("Azure-library",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/azure-library.lua"))();
+
+end)
+
+Gamer2:Button("Azure-UI-Hub",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/azure-lib-Hub.lua"))();
+
+end)
+
 local Gamer3 = library:CreateSection("library's");
 
 Gamer3:Button("finity UI",function()
@@ -46,8 +60,6 @@ Gamer3:Button("UI-AutoHide-UI",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/UI-AutoHide-UI.lua"))();
 
 end)
-
-local Gamer3 = library:CreateSection("library's");
 
 Gamer3:Button("finity-UI-Copy",function()
 
