@@ -9,9 +9,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
-local Gamer2 = library:CreateSection("");
+local Gamer2 = library:CreateSection("Skyblox");
 
-Gamer2:Button("Skyblox",function()
+Gamer2:Button("(GUI)-Skyblox-Hub",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/(GUI)-Skyblox-Hub.lua"))();
 
@@ -21,7 +21,7 @@ local Gamer3 = library:CreateSection("Loading");
 
 Gamer3:Button("Multi_LoadingHub",function()
 
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/LoadingHub.lua"))();"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Multi-Friends-Hub-V1/master/LoadingHub.lua"))();
 
 end)
 
