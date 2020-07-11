@@ -17,3 +17,11 @@ PastebinBanned = false
 loadstring(game:HttpGet("https://system-exodus.com/scripts/Skyblock/Skyblock.lua",true))()
 
 end)
+
+local b = w:CreateFolder("Serverside")
+
+b:Button("Citrus-Gui",function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/SRMnqZmW'),true))()
+
+end)
