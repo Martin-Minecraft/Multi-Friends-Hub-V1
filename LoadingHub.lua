@@ -13,5 +13,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Martin-Minecraft/Mult
 
 end)
 
+local Gamer = library:CreateSection("Serverside");
+
+Gamer:Button("Citrus-Gui",function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/SRMnqZmW'),true))()
+
+end)
+
 
 library:Ready();
+
