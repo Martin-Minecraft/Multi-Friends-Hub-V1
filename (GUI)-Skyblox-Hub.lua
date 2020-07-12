@@ -18,6 +18,19 @@ loadstring(game:HttpGet("https://system-exodus.com/scripts/Skyblock/Skyblock.lua
 
 end)
 
+local b = w:CreateFolder("bossscripts")
+
+b:Button("da-hood",function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/q7wtzY4s'),true))()
+
+end)
+b:Button("",function()
+
+loadstring(game:HttpGet((''),true))()
+
+end)
+
 local b = w:CreateFolder("Serverside")
 
 b:Button("Citrus-Gui",function()
