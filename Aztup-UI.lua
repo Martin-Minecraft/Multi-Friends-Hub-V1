@@ -6,7 +6,7 @@ Gamer:Toggle("B");
 Gamer:Box("C");
 Gamer:ColorPicker("D");
 Gamer:Dropdown("Bakon", {"A", "B", "C"});
-Gamer2:Button("Gamer Button");
+Gamer1:Button("Gamer Button");
 
 end)
 
