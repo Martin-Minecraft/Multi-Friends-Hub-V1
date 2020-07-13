@@ -38,3 +38,9 @@ b:Button("Citrus-Gui",function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/SRMnqZmW'),true))()
 
 end)
+
+b:Button("only if you use Serverside execute this in Citrus-Gui",function()
+
+setclipboard("https://pastebin.com/raw/PswbUqFp")
+
+end)
